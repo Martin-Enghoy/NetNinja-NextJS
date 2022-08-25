@@ -6,21 +6,29 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
-      {/* <Navbar /> */}
-      <h1>Homepage</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-        dolore quidem non, ratione amet magni cupiditate id voluptatibus dolores
-        laboriosam veniam quod vitae corrupti quaerat quam cumque quia omnis
-        consequatur?
-      </p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-        consectetur odit nam impedit fuga architecto quam nostrum quo quod est
-        repellendus totam sint dolorem, eius veniam, corporis aperiam natus non.
-      </p>
-      {/* <Footer /> */}
-    </div>
+    <>
+      {/* Fragment Enclosure for multiple root components */}
+      <Head>
+        <title>Sample Website | Home page</title>
+        <meta name="keywords" content="sample page" />
+      </Head>
+      <div>
+        {/* <Navbar /> */}
+        <h1>Homepage</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+          dolore quidem non, ratione amet magni cupiditate id voluptatibus
+          dolores laboriosam veniam quod vitae corrupti quaerat quam cumque quia
+          omnis consequatur?
+        </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+          consectetur odit nam impedit fuga architecto quam nostrum quo quod est
+          repellendus totam sint dolorem, eius veniam, corporis aperiam natus
+          non.
+        </p>
+        {/* <Footer /> */}
+      </div>
+    </>
   );
 }
